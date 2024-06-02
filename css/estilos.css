@@ -6,6 +6,19 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
+    position: relative;
+}
+
+.top-right-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.top-right-link a {
+    color: #0f0;
+    text-decoration: none;
+    font-size: 1.2em;
 }
 
 .calculator {
